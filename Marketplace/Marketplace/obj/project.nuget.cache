@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZslPCJRdbio=",
+  "dgSpecHash": "ckNxwmfmK+8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Marketplace.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Matija\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Matija\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Matija\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Matija\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",

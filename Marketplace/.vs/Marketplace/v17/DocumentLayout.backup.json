@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -118,11 +122,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Marketplace\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:07:40.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "loger.css",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\loger.css",
               "RelativeDocumentMoniker": "Marketplace\\wwwroot\\css\\loger.css",
@@ -130,12 +147,11 @@
               "RelativeToolTip": "Marketplace\\wwwroot\\css\\loger.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-09T12:39:16.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:39:16.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "Marketplace\\wwwroot\\css\\login.css",
@@ -143,12 +159,11 @@
               "RelativeToolTip": "Marketplace\\wwwroot\\css\\login.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-09T12:32:41.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:32:41.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "logger.html",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\logger.html",
               "RelativeDocumentMoniker": "Marketplace\\wwwroot\\logger.html",
@@ -156,12 +171,11 @@
               "RelativeToolTip": "Marketplace\\wwwroot\\logger.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-09T12:14:37.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:14:37.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "login.html",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\login.html",
               "RelativeDocumentMoniker": "Marketplace\\wwwroot\\login.html",
@@ -169,12 +183,11 @@
               "RelativeToolTip": "Marketplace\\wwwroot\\login.html",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-09T12:11:45.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:11:45.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\User.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\User.cs",
@@ -182,12 +195,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:08:17.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:08:17.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Tag.cs",
@@ -195,12 +207,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:08:04.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:08:04.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Role.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Role.cs",
@@ -208,12 +219,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:08:00.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:08:00.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Reservation.cs",
@@ -221,12 +231,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Reservation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:07:57.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:07:57.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Log.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Log.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Log.cs",
@@ -234,12 +243,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:07:38.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:07:38.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ItemType.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemType.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\ItemType.cs",
@@ -247,12 +255,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\ItemType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:07:32.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:07:32.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Item.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Item.cs",
@@ -260,12 +267,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:07:17.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:07:17.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ItemTag.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemTag.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\ItemTag.cs",
@@ -273,12 +279,11 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\ItemTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:07:04.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:07:04.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MarketplaceContext.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
               "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
@@ -286,25 +291,24 @@
               "RelativeToolTip": "MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAqwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:06:49.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:06:49.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ItemController.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\ItemController.cs",
               "RelativeDocumentMoniker": "Marketplace\\Controllers\\ItemController.cs",
               "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\ItemController.cs",
               "RelativeToolTip": "Marketplace\\Controllers\\ItemController.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAowNwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAgwAYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T12:06:25.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Marketplace\\Controllers\\UserController.cs",
@@ -312,12 +316,11 @@
               "RelativeToolTip": "Marketplace\\Controllers\\UserController.cs",
               "ViewState": "AgIAAJIAAAAAAAAAAAAqwLEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:00:14.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:00:14.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Program.cs",
               "RelativeDocumentMoniker": "Marketplace\\Program.cs",
@@ -325,12 +328,11 @@
               "RelativeToolTip": "Marketplace\\Program.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:53:48.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:53:48.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\appsettings.json",
               "RelativeDocumentMoniker": "Marketplace\\appsettings.json",
@@ -338,12 +340,11 @@
               "RelativeToolTip": "Marketplace\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-09T11:59:13.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:59:13.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "LogController.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\LogController.cs",
               "RelativeDocumentMoniker": "Marketplace\\Controllers\\LogController.cs",
@@ -351,12 +352,11 @@
               "RelativeToolTip": "Marketplace\\Controllers\\LogController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAqwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T12:04:12.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T12:04:12.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ILogService.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Interfaces\\ILogService.cs",
               "RelativeDocumentMoniker": "Marketplace\\Interfaces\\ILogService.cs",
@@ -364,12 +364,11 @@
               "RelativeToolTip": "Marketplace\\Interfaces\\ILogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:57:52.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:57:52.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LogService.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Services\\LogService.cs",
               "RelativeDocumentMoniker": "Marketplace\\Services\\LogService.cs",
@@ -377,12 +376,11 @@
               "RelativeToolTip": "Marketplace\\Services\\LogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:57:17.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:57:17.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UserPromoteDto.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserPromoteDto.cs",
               "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserPromoteDto.cs",
@@ -390,12 +388,11 @@
               "RelativeToolTip": "Marketplace\\Dtos\\UserPromoteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:56:50.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:56:50.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserLoginDto.cs",
@@ -403,12 +400,11 @@
               "RelativeToolTip": "Marketplace\\Dtos\\UserLoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:56:38.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:56:38.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserDto.cs",
@@ -416,12 +412,11 @@
               "RelativeToolTip": "Marketplace\\Dtos\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:56:27.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:56:27.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserChangePasswordDto.cs",
               "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserChangePasswordDto.cs",
@@ -429,12 +424,11 @@
               "RelativeToolTip": "Marketplace\\Dtos\\UserChangePasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:56:18.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:56:18.411Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\ItemDto.cs",
               "RelativeDocumentMoniker": "Marketplace\\Dtos\\ItemDto.cs",
@@ -442,12 +436,11 @@
               "RelativeToolTip": "Marketplace\\Dtos\\ItemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:56:02.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:56:02.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "PasswordHashProvider.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\PasswordHashProvider.cs",
               "RelativeDocumentMoniker": "Marketplace\\Security\\PasswordHashProvider.cs",
@@ -455,12 +448,11 @@
               "RelativeToolTip": "Marketplace\\Security\\PasswordHashProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:55:28.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:55:28.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "JwtTokenProvider.cs",
               "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\JwtTokenProvider.cs",
               "RelativeDocumentMoniker": "Marketplace\\Security\\JwtTokenProvider.cs",
@@ -468,8 +460,7 @@
               "RelativeToolTip": "Marketplace\\Security\\JwtTokenProvider.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA6wDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:55:08.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T11:55:08.238Z"
             }
           ]
         },

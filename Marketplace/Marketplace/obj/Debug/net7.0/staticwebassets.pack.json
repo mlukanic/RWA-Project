@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\loger.css",
+      "PackagePath": "staticwebassets\\css\\loger.css"
+    },
+    {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\logger.html",
+      "PackagePath": "staticwebassets\\logger.html"
+    },
+    {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Marketplace.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Marketplace.props",
+      "PackagePath": "build\\Marketplace.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Marketplace.props",
+      "PackagePath": "buildMultiTargeting\\Marketplace.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Marketplace.props",
+      "PackagePath": "buildTransitive\\Marketplace.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

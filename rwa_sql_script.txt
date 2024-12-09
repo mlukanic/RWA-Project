@@ -1,0 +1,71 @@
+-- Create Role table
+CREATE TABLE Role (
+    RoleId INT IDENTITY(1,1) PRIMARY KEY,
+    RoleName NVARCHAR(50) NOT NULL
+);
+
+-- Create User table
+CREATE TABLE [User] (
+    UserId INT IDENTITY(1,1) PRIMARY KEY,
+    Username NVARCHAR(100) NOT NULL,
+    PwdHash nvarchar(256) NOT NULL,
+    PwdSalt nvarchar(256) NOT NULL,
+    FirstName nvarchar(256) NOT NULL,
+    LastName nvarchar(256) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Phone nvarchar(256) NULL,
+    RoleId INT NOT NULL,
+    CONSTRAINT FK_User_Role FOREIGN KEY (RoleId) REFERENCES Role(RoleId)
+);
+
+-- Create ItemType table
+CREATE TABLE ItemType (
+    ItemTypeId INT IDENTITY(1,1) PRIMARY KEY,
+    TypeName NVARCHAR(50) NOT NULL
+);
+
+-- Create Item table
+CREATE TABLE Item (
+    ItemId INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(MAX) NOT NULL,
+    DatePosted DATETIME NOT NULL DEFAULT GETDATE(),
+    Condition NVARCHAR(50) NOT NULL,
+    ItemTypeId INT NOT NULL,
+    CONSTRAINT FK_Item_ItemType FOREIGN KEY (ItemTypeId) REFERENCES ItemType(ItemTypeId)
+);
+
+-- Create Tag table
+CREATE TABLE Tag (
+    TagId INT IDENTITY(1,1) PRIMARY KEY,
+    TagName NVARCHAR(50) NOT NULL
+);
+
+-- Create ItemTag table for many-to-many relationship between Item and Tag
+CREATE TABLE ItemTag (
+    ItemId INT NOT NULL,
+    TagId INT NOT NULL,
+    CONSTRAINT PK_ItemTag PRIMARY KEY (ItemId, TagId),
+    CONSTRAINT FK_ItemTag_Item FOREIGN KEY (ItemId) REFERENCES Item(ItemId),
+    CONSTRAINT FK_ItemTag_Tag FOREIGN KEY (TagId) REFERENCES Tag(TagId)
+);
+
+-- Create Reservation table for many-to-many relationship between User and Item
+CREATE TABLE Reservation (
+    ReservationId INT IDENTITY(1,1) PRIMARY KEY,
+    UserId INT NOT NULL,
+    ItemId INT NOT NULL,
+    ReservationDate DATETIME NOT NULL DEFAULT GETDATE(),
+    CONSTRAINT FK_Reservation_User FOREIGN KEY (UserId) REFERENCES [User](UserId),
+    CONSTRAINT FK_Reservation_Item FOREIGN KEY (ItemId) REFERENCES Item(ItemId)
+);
+
+-- Insert initial roles
+INSERT INTO Role (RoleName) VALUES ('User'), ('Admin');
+
+CREATE TABLE Logs (
+    IDLog INT IDENTITY (1,1) PRIMARY KEY NOT NULL,
+    Message  NVARCHAR(150) NULL,
+    Level NVARCHAR(100) NULL,
+    Timestamp DATETIME NOT NULL 
+);

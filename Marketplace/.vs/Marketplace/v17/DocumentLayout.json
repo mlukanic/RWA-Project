@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\wwwroot\\logger.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\wwwroot\\logger.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\wwwroot\\css\\loger.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\wwwroot\\css\\loger.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\marketplacecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\marketplacecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\itemtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\itemtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplaceclasslibrary\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14BA651E-43E0-448A-8B3C-BEE56C70F61F}|MarketplaceClassLibrary\\MarketplaceClassLibrary.csproj|solutionrelative:marketplaceclasslibrary\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\interfaces\\ilogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\dtos\\userpromotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\dtos\\userpromotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\dtos\\userchangepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\dtos\\userchangepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|c:\\users\\matija\\desktop\\rwa_project\\marketplace\\marketplace\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB5E9B3F-D8C9-47A4-9CC5-8B83D3DAEC7F}|Marketplace\\Marketplace.csproj|solutionrelative:marketplace\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "loger.css",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\loger.css",
+              "RelativeDocumentMoniker": "Marketplace\\wwwroot\\css\\loger.css",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\loger.css",
+              "RelativeToolTip": "Marketplace\\wwwroot\\css\\loger.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T12:39:16.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "Marketplace\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "Marketplace\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T12:32:41.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "logger.html",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\logger.html",
+              "RelativeDocumentMoniker": "Marketplace\\wwwroot\\logger.html",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\logger.html",
+              "RelativeToolTip": "Marketplace\\wwwroot\\logger.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-09T12:14:37.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "Marketplace\\wwwroot\\login.html",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\wwwroot\\login.html",
+              "RelativeToolTip": "Marketplace\\wwwroot\\login.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-09T12:11:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\User.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:08:17.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Tag.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:08:04.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Role.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:08:00.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Reservation.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:07:57.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Log.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Log.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:07:38.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemType.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemType.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\ItemType.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemType.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\ItemType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:07:32.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\Item.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:07:17.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ItemTag.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemTag.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\ItemTag.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\ItemTag.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\ItemTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:07:04.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MarketplaceContext.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
+              "RelativeDocumentMoniker": "MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
+              "RelativeToolTip": "MarketplaceClassLibrary\\Models\\MarketplaceContext.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAqwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:06:49.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Marketplace\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAA5wAYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:06:25.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Marketplace\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAqwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:00:14.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Program.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Program.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Program.cs",
+              "RelativeToolTip": "Marketplace\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:53:48.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\appsettings.json",
+              "RelativeDocumentMoniker": "Marketplace\\appsettings.json",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\appsettings.json",
+              "RelativeToolTip": "Marketplace\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T11:59:13.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Controllers\\LogController.cs",
+              "RelativeToolTip": "Marketplace\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:04:12.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ILogService.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Interfaces\\ILogService.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Interfaces\\ILogService.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Interfaces\\ILogService.cs",
+              "RelativeToolTip": "Marketplace\\Interfaces\\ILogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:57:52.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Services\\LogService.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Services\\LogService.cs",
+              "RelativeToolTip": "Marketplace\\Services\\LogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:57:17.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserPromoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserPromoteDto.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserPromoteDto.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserPromoteDto.cs",
+              "RelativeToolTip": "Marketplace\\Dtos\\UserPromoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:50.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserLoginDto.cs",
+              "RelativeToolTip": "Marketplace\\Dtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:38.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Marketplace\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:27.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Dtos\\UserChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\UserChangePasswordDto.cs",
+              "RelativeToolTip": "Marketplace\\Dtos\\UserChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:18.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\ItemDto.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Dtos\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Dtos\\ItemDto.cs",
+              "RelativeToolTip": "Marketplace\\Dtos\\ItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:56:02.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PasswordHashProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\PasswordHashProvider.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Security\\PasswordHashProvider.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\PasswordHashProvider.cs",
+              "RelativeToolTip": "Marketplace\\Security\\PasswordHashProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:55:28.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JwtTokenProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\JwtTokenProvider.cs",
+              "RelativeDocumentMoniker": "Marketplace\\Security\\JwtTokenProvider.cs",
+              "ToolTip": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\Marketplace\\Security\\JwtTokenProvider.cs",
+              "RelativeToolTip": "Marketplace\\Security\\JwtTokenProvider.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:55:08.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

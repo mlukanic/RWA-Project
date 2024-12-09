@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/loger.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logger</title>
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">LOG PAGE</h1>
+        <button id="logoutButton">Logout</button>
+    </header>
+
+    <main>
+        <table id="logsTable" class="scrollable">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Message</th>
+                    <th>Level</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="logsContainer">
+                <!-- Logs will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <select id="logCount">
+            <option value="10" selected>10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+        </select>
+        <button id="showLogsButton">Prikaži logove</button>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const showLogsButton = document.getElementById('showLogsButton');
+            const logCountSelect = document.getElementById('logCount');
+            const logsContainer = document.getElementById('logsContainer');
+            const logoutButton = document.getElementById('logoutButton');
+
+            showLogsButton.addEventListener('click', () => {
+                const count = logCountSelect.value;
+                fetchLogs(count);
+            });
+
+            logoutButton.addEventListener('click', () => {
+                logoutUser();
+            });
+
+            async function fetchLogs(count) {
+                const token = localStorage.getItem('JWT');
+                console.log(token);
+                if (!token) {
+                    console.error('No JWT token found');
+                    window.location.href = 'login.html'; // Redirect to login if no token
+                    return;
+                }
+
+                try {
+                    const response = await fetch(`http://localhost:5052/api/Log/get/${count}`, {
+                        method: 'GET',
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                    if (response.ok) {
+                        const logs = await response.json();
+                        displayLogs(logs);
+                    } else if (response.status === 401) {
+                        console.error('Unauthorized: Invalid token');
+                        window.location.href = 'login.html';
+                    } else {
+                        console.error('Failed to fetch logs:', response.statusText);
+                    }
+                } catch (error) {
+                    console.error('Error fetching logs:', error);
+                }
+            }
+
+            function displayLogs(logs) {
+                logsContainer.innerHTML = '';
+                logs.forEach(log => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                                        <td>${log.idlog}</td>
+                                        <td>${log.message}</td>
+                                        <td>${log.level}</td>
+                                        <td>${log.timestamp}</td>
+                                    `;
+                    logsContainer.appendChild(row);
+                });
+            }
+
+            async function logoutUser() {
+                try {
+                    localStorage.removeItem('JWT');
+                    window.location.href = 'login.html';
+                } catch (error) {
+                    console.error('Error during logout:', error);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="login-container">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+        <button onclick="jwtLogin()">LOGIN</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous">
+
+    </script>
+
+    <script>
+        let loginUrl = "http://localhost:5052/api/User/Login";
+
+        function jwtLogin() {
+            let loginData = {
+                "username": $("#username").val(),
+                "password": $("#password").val()
+            }
+            $.ajax({
+                method: "POST",
+                url: loginUrl,
+                data: JSON.stringify(loginData),
+                contentType: 'application/json'
+            }).done(function (tokenData) {
+                localStorage.setItem("JWT", tokenData);
+                window.location.href = "logger.html";
+            }).fail(function (err) {
+                alert(err.responseText);
+                localStorage.removeItem("JWT");
+            });
+        }
+    </script>
+</body>
+</html>

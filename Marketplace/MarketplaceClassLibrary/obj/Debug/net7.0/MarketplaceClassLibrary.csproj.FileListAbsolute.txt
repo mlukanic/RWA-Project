@@ -1,0 +1,15 @@
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\bin\Debug\net7.0\MarketplaceClassLibrary.deps.json
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\bin\Debug\net7.0\MarketplaceClassLibrary.runtimeconfig.json
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\bin\Debug\net7.0\MarketplaceClassLibrary.dll
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\bin\Debug\net7.0\MarketplaceClassLibrary.pdb
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.AssemblyInfo.cs
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.sourcelink.json
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.dll
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\refint\MarketplaceClassLibrary.dll
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.pdb
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\MarketplaceClassLibrary.genruntimeconfig.cache
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceClassLibrary\obj\Debug\net7.0\ref\MarketplaceClassLibrary.dll

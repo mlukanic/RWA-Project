@@ -1,0 +1,21 @@
+﻿@model MarketplaceMvc.ViewModels.UserVM
+
+<h2>Confirm Your Registration Details</h2>
+
+<p><strong>Username:</strong> @Model.Username</p>
+<p><strong>First Name:</strong> @Model.FirstName</p>
+<p><strong>Last Name:</strong> @Model.LastName</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Phone:</strong> @Model.Phone</p>
+
+<form method="post" asp-action="CompleteRegistration">
+    <input type="hidden" asp-for="Username" />
+    <input type="hidden" asp-for="FirstName" />
+    <input type="hidden" asp-for="LastName" />
+    <input type="hidden" asp-for="Email" />
+    <input type="hidden" asp-for="Phone" />
+    <input type="hidden" asp-for="Password" />
+
+    <button type="submit" class="btn btn-primary">Confirm</button>
+    <a asp-action="Register" class="btn btn-danger">Cancel</a>
+</form>

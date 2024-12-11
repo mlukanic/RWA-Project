@@ -75,3 +75,4 @@ C:\Users\Matija\Desktop\RWA_Project\Marketplace\Marketplace\obj\Debug\net7.0\Mar
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\Marketplace\obj\Debug\net7.0\Marketplace.genruntimeconfig.cache
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\Marketplace\obj\Debug\net7.0\ref\Marketplace.dll
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\Marketplace\bin\Debug\net7.0\Marketplace.staticwebassets.runtime.json
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\Marketplace\bin\Debug\net7.0\AutoMapper.dll

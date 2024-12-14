@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MarketplaceMvc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceMvc\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceMvc\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
       "Id": "C:\\Users\\Matija\\Desktop\\RWA_Project\\Marketplace\\MarketplaceMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

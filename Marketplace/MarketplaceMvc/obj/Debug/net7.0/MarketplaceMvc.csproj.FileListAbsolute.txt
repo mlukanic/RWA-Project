@@ -71,3 +71,5 @@ C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\bin\Debug\net7.0\
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\bin\Debug\net7.0\MarketplaceClassLibrary.pdb
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\obj\Debug\net7.0\MarketplaceMvc.csproj.AssemblyReference.cache
 C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\obj\Debug\net7.0\Marketpl.BF2DD5A8.Up2Date
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Matija\Desktop\RWA_Project\Marketplace\MarketplaceMvc\bin\Debug\net7.0\Newtonsoft.Json.dll

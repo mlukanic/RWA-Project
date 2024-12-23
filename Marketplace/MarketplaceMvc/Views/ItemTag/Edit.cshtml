@@ -1,0 +1,44 @@
+﻿@model MarketplaceMvc.ViewModels.ItemTagVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ItemTagVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ItemId" class="control-label"></label>
+                <select asp-for="ItemId" asp-items="ViewBag.ItemDdlItems" class="form-control">
+                    <option>Choose something</option>
+                </select>
+                <span asp-validation-for="ItemId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TagId" class="control-label"></label>
+                <select asp-for="TagId" asp-items="ViewBag.TagDdlItems" class="form-control">
+                    <option>Choose something</option>
+                </select>
+                <span asp-validation-for="TagId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

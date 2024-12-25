@@ -1,0 +1,43 @@
+﻿@model MarketplaceMvc.ViewModels.ItemVM
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete item</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TypeName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Condition)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Condition)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger mt-3" /> |
+        <a asp-action="Index" class="btn btn-outline-primary mt-3">Back to List</a>
+    </form>
+</div>

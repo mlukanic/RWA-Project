@@ -1,0 +1,99 @@
+﻿@model MarketplaceMvc.ViewModels.ItemVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+
+    .tags-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .tag-item {
+        position: relative;
+        padding-right: 10px;
+    }
+
+    .tag-item::after {
+       content: "|";
+       position: absolute;
+       right: 0;
+    }
+
+    .tag-item:last-child::after {
+       content: "";
+    }
+
+    .container h2 {
+        font-weight: bold;
+    }
+
+    .border {
+        border-color: #007bff;
+    }
+
+    .btn-outline-primary {
+        margin-right: 10px;
+    }
+
+</style>
+
+<h1>Item details</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>@Model.Title</h2>
+            <h4 class="text-muted">@Model.TypeName</h4>
+            <div class="mt-3 mb-3">
+                <img alt="Property Image" class="img-fluid rounded">
+            </div>
+            <p class="mt-3"><strong>Description:</strong> @Model.Description</p>
+        </div>
+
+        <div class="col-md-6">
+            <div class="border rounded p-4 bg-light">
+                <h4>Additional Information</h4>
+                <dl class="row">
+                    <dt class="col-sm-5">@Html.DisplayNameFor(model => model.Condition)</dt>
+                    <dd class="col-sm-7">@Html.DisplayFor(model => model.Condition)</dd>
+
+                    <dt class="col-sm-5">Tags</dt>
+                    <dd class="col-sm-7">
+                        @if (Model.TagIds != null && Model.TagIds.Any())
+                        {
+                            <div class="tag-list">
+                                @foreach (var tagId in Model.TagIds)
+                                {
+                                    var tag = Model.Tags.FirstOrDefault(x => x.TagId == tagId);
+                                    if (tag != null)
+                                    {
+                                        <span class="tag-item">@tag.TagName</span>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <p>No tags available.</p>
+                        }
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col">
+            <a asp-controller="Reservation" asp-action="Create"
+               asp-route-propertyId="@Model.ItemId" class="btn btn-primary">
+                Reserve
+            </a>
+            <a asp-controller="Property" asp-action="Search" class="btn btn-outline-primary">Back</a>
+        </div>
+    </div>
+</div>

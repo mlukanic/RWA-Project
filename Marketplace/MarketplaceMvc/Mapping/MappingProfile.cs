@@ -12,6 +12,7 @@ namespace MarketplaceMvc.Mapping
             CreateMap<ItemType, ItemTypeVM>();
             CreateMap<Tag, TagVM>();
             CreateMap<ItemTag, ItemTagVM>();
+            CreateMap<Item, ItemVM>();
         }
     }
 }

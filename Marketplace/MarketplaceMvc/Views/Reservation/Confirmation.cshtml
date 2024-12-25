@@ -1,0 +1,25 @@
+﻿@model MarketplaceMvc.ViewModels.ReservationVM
+
+@{
+    ViewData["Title"] = "Reservation Confirmation";
+}
+
+<h2>Reservation Confirmed</h2>
+
+<div class="alert alert-success" role="alert">
+    Your reservation has been successfully created!
+</div>
+
+<div>
+    <h4>Reservation Details:</h4>
+    <dl class="row">
+        <dt class="col-sm-3">Item:</dt>
+        <dd class="col-sm-9">@Model.ItemTitle</dd>
+
+        <dt class="col-sm-3">Username:</dt>
+        <dd class="col-sm-9">@Model.Username</dd>
+    </dl>
+</div>
+
+<a asp-controller="Item" asp-action="Details" asp-route-id="@Model.ItemId" class="btn btn-primary mt-3">Back to property</a>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary mt-3">Return to Home</a>

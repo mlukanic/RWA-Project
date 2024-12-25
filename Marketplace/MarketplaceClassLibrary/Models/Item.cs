@@ -17,9 +17,9 @@ public partial class Item
 
     public int ItemTypeId { get; set; }
 
+    public virtual ICollection<ItemTag> ItemTags { get; } = new List<ItemTag>();
+
     public virtual ItemType ItemType { get; set; } = null!;
 
     public virtual ICollection<Reservation> Reservations { get; } = new List<Reservation>();
-
-    public virtual ICollection<ItemTag> ItemTags { get; } = new List<ItemTag>();
 }

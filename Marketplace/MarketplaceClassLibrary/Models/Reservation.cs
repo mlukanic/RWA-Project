@@ -9,9 +9,9 @@ public partial class Reservation
 
     public int UserId { get; set; }
 
-    public int ItemId { get; set; }
+    public string Username { get; set; } = null!;
 
-    public DateTime ReservationDate { get; set; }
+    public int ItemId { get; set; }
 
     public virtual Item Item { get; set; } = null!;
 

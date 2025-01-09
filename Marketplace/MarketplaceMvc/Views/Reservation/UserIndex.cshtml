@@ -1,0 +1,95 @@
+﻿@model MarketplaceMvc.ViewModels.ReservationUserVM
+
+@{
+    ViewData["Title"] = "User Index";
+}
+
+<h1>User Index</h1>
+
+<form asp-action="UserIndex" method="GET">
+    <div class="row">
+        <div class="col-8">
+            <input asp-for="Username" class="form-control" placeholder="Search reservation" />
+        </div>
+        <div class="col-auto">
+            <select asp-for="Size" class="form-select">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <input type="submit" value="Go" name="submit" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
+
+@if (!string.IsNullOrWhiteSpace(Model.Username))
+{
+    @if (Model.Reservations.Any())
+    {
+        <div class="row">
+            @foreach (var item in Model.Reservations)
+            {
+                <div class="col-md-12 mb-3 mt-3">
+                    <div class="border p-3 rounded d-flex align-items-center">
+                        <div class="d-flex flex-grow-1 me-3">
+                            <div class="me-3">
+                                <h4 class="mb-0">@item.ItemTitle</h4>
+                            </div>
+                            <div class="me-3">
+                                <h4 class="mb-0">@item.Username</h4>
+                            </div>
+                        </div>
+
+                        <div class="ms-auto">
+                            @Html.ActionLink("Details", "Details", new { id = item.ReservationId }, new { @class = "btn btn-outline-primary" })
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                @for (int i = Model.FromPager; i <= Model.ToPager; i++)
+                {
+                    var linkText = i.ToString();
+                    if (i != 1 && i == Model.FromPager)
+                    {
+                        linkText = "«";
+                    }
+                    else if (i != Model.LastPage && i == Model.ToPager)
+                    {
+                        linkText = "»";
+                    }
+
+                    var linkClass = "page-item";
+                    if (i == Model.Page)
+                    {
+                        linkClass = "page-item active";
+                    }
+                    <li class="@linkClass">
+                        @Html.ActionLink(
+                                 linkText,
+                                 "Search",
+                                 new
+                                 {
+                                     username = Model.Username,
+                                     page = i,
+                                     size = Model.Size
+                                 },
+                                 new { @class = "page-link" })
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+    else
+    {
+        <p>No reservations found for the specified username.</p>
+    }
+}
+else
+{
+    <p>Please enter a username and press "Go" to search for reservations.</p>
+}

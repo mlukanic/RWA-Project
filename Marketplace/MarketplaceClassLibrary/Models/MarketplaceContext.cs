@@ -17,6 +17,8 @@ public partial class MarketplaceContext : DbContext
 
     public virtual DbSet<Item> Items { get; set; }
 
+    public virtual DbSet<ItemTag> ItemTags { get; set; }
+
     public virtual DbSet<ItemType> ItemTypes { get; set; }
 
     public virtual DbSet<Log> Logs { get; set; }
@@ -29,16 +31,15 @@ public partial class MarketplaceContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    public virtual DbSet<ItemTag> ItemTags { get; set; }
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=.;Database=Marketplace;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Item>(entity =>
         {
-            entity.HasKey(e => e.ItemId).HasName("PK__Item__727E838B2753A6A7");
+            entity.HasKey(e => e.ItemId).HasName("PK__Item__727E838BA5C14A47");
 
             entity.ToTable("Item");
 
@@ -52,16 +53,30 @@ public partial class MarketplaceContext : DbContext
                 .HasForeignKey(d => d.ItemTypeId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Item_ItemType");
+        });
 
-            entity.HasMany(d => d.ItemTags).WithOne(p => p.Item)
+        modelBuilder.Entity<ItemTag>(entity =>
+        {
+            entity.HasKey(e => e.ItemTagId).HasName("PK__ItemTag__ED08CCE7EC8CC463");
+
+            entity.ToTable("ItemTag");
+
+            entity.HasIndex(e => new { e.ItemId, e.TagId }, "UQ_ItemTag_Item_Tag").IsUnique();
+
+            entity.HasOne(d => d.Item).WithMany(p => p.ItemTags)
                 .HasForeignKey(d => d.ItemId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_ItemTag_Item");
+
+            entity.HasOne(d => d.Tag).WithMany(p => p.ItemTags)
+                .HasForeignKey(d => d.TagId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_ItemTag_Tag");
         });
 
         modelBuilder.Entity<ItemType>(entity =>
         {
-            entity.HasKey(e => e.ItemTypeId).HasName("PK__ItemType__F51540FB2AC48876");
+            entity.HasKey(e => e.ItemTypeId).HasName("PK__ItemType__F51540FB1BDB8162");
 
             entity.ToTable("ItemType");
 
@@ -70,7 +85,7 @@ public partial class MarketplaceContext : DbContext
 
         modelBuilder.Entity<Log>(entity =>
         {
-            entity.HasKey(e => e.Idlog).HasName("PK__Logs__95D002083E83775A");
+            entity.HasKey(e => e.Idlog).HasName("PK__Logs__95D002086A310D8F");
 
             entity.Property(e => e.Idlog).HasColumnName("IDLog");
             entity.Property(e => e.Level).HasMaxLength(100);
@@ -80,13 +95,11 @@ public partial class MarketplaceContext : DbContext
 
         modelBuilder.Entity<Reservation>(entity =>
         {
-            entity.HasKey(e => e.ReservationId).HasName("PK__Reservat__B7EE5F242A9FDF9A");
+            entity.HasKey(e => e.ReservationId).HasName("PK__Reservat__B7EE5F24EFA4CE62");
 
             entity.ToTable("Reservation");
 
-            entity.Property(e => e.ReservationDate)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime");
+            entity.Property(e => e.Username).HasMaxLength(100);
 
             entity.HasOne(d => d.Item).WithMany(p => p.Reservations)
                 .HasForeignKey(d => d.ItemId)
@@ -101,7 +114,7 @@ public partial class MarketplaceContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__Role__8AFACE1A1701262A");
+            entity.HasKey(e => e.RoleId).HasName("PK__Role__8AFACE1A97036F72");
 
             entity.ToTable("Role");
 
@@ -110,21 +123,16 @@ public partial class MarketplaceContext : DbContext
 
         modelBuilder.Entity<Tag>(entity =>
         {
-            entity.HasKey(e => e.TagId).HasName("PK__Tag__657CF9ACC733437B");
+            entity.HasKey(e => e.TagId).HasName("PK__Tag__657CF9ACF5FD6222");
 
             entity.ToTable("Tag");
 
             entity.Property(e => e.TagName).HasMaxLength(50);
-
-            entity.HasMany(d => d.ItemTags).WithOne(p => p.Tag)
-                .HasForeignKey(d => d.TagId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_ItemTag_Tag");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__User__1788CC4C7620C9D5");
+            entity.HasKey(e => e.UserId).HasName("PK__User__1788CC4C5F0F39DD");
 
             entity.ToTable("User");
 
@@ -141,20 +149,6 @@ public partial class MarketplaceContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_User_Role");
         });
-
-        modelBuilder.Entity<ItemTag>()
-            .ToTable("ItemTag")
-            .HasKey(it => new { it.ItemId, it.TagId });
-
-        modelBuilder.Entity<ItemTag>()
-            .HasOne(it => it.Item)
-            .WithMany(i => i.ItemTags)
-            .HasForeignKey(it => it.ItemId);
-
-        modelBuilder.Entity<ItemTag>()
-            .HasOne(it => it.Tag)
-            .WithMany(t => t.ItemTags)
-            .HasForeignKey(it => it.TagId);
 
         OnModelCreatingPartial(modelBuilder);
     }

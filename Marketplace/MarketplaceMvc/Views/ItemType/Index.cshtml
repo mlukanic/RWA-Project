@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MarketplaceMvc.ViewModels.ItemTypeVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Item type list</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-primary">Create New</a>
+</p>
+
+<h2>Item Types</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item Type ID</th>
+            <th>Type Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemTypeId</td>
+                <td>@item.TypeName</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ItemTypeId }, new { @class = "btn btn-primary" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ItemTypeId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -116,7 +116,6 @@ namespace MarketplaceMvc.Controllers
         [HttpGet]
         public IActionResult Create(int itemId)
         {
-            itemId = itemId + 1;
             if (itemId <= 0)
             {
                 return BadRequest("Invalid item ID.");
@@ -131,7 +130,8 @@ namespace MarketplaceMvc.Controllers
             var reservationVM = new ReservationVM
             {
                 ItemId = itemId,
-                ItemTitle = item.Title
+                ItemTitle = item.Title,
+                Username = User.Identity.Name // Get the currently logged-in user's username
             };
 
             return View(reservationVM);
@@ -152,7 +152,7 @@ namespace MarketplaceMvc.Controllers
                 return NotFound($"Item with ID {reservationVM.ItemId} not found.");
             }
 
-            var user = _context.Users.FirstOrDefault(u => u.Username == reservationVM.Username);
+            var user = _context.Users.FirstOrDefault(u => u.Username == User.Identity.Name);
             if (user == null)
             {
                 ModelState.AddModelError("", "User not found.");
@@ -176,9 +176,6 @@ namespace MarketplaceMvc.Controllers
             });
         }
 
-
-
-
         public IActionResult Confirmation(int itemId, string username)
         {
             var item = _context.Items.Find(itemId);
@@ -189,7 +186,7 @@ namespace MarketplaceMvc.Controllers
 
             var reservationVM = new ReservationVM
             {
-                ItemId = itemId+1,
+                ItemId = itemId,
                 ItemTitle = item.Title,
                 Username = username
             };
@@ -197,65 +194,7 @@ namespace MarketplaceMvc.Controllers
             return View(reservationVM);
         }
 
-        public IActionResult Edit(int id)
-        {
-            var reservation = _context.Reservations
-                .Include(r => r.Item)
-                .Include(r => r.User)
-                .FirstOrDefault(r => r.ReservationId == id);
-
-            if (reservation == null)
-            {
-                return NotFound();
-            }
-
-            var reservationVM = new ReservationVM
-            {
-                ReservationId = reservation.ReservationId,
-                ItemId = reservation.ItemId,
-                ItemTitle = reservation.Item.Title,
-                Username = reservation.Username
-            };
-
-            return View(reservationVM);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, ReservationVM reservationVM)
-        {
-            if (!ModelState.IsValid)
-            {
-                return View(reservationVM);
-            }
-
-            var dbReservation = _context.Reservations
-                .Include(r => r.Item)
-                .Include(r => r.User)
-                .FirstOrDefault(r => r.ReservationId == id);
-
-            if (dbReservation == null)
-            {
-                return NotFound();
-            }
-
-            var overlappingReservations = _context.Reservations
-                .Where(r => r.ReservationId != id && r.ItemId == dbReservation.ItemId)
-                .ToList();
-
-            if (overlappingReservations.Any())
-            {
-                ModelState.AddModelError("", "The selected dates are already booked for this property.");
-                return View(reservationVM);
-            }
-
-            dbReservation.Username = reservationVM.Username;
-
-            _context.SaveChanges();
-
-            return RedirectToAction(nameof(Index));
-        }
-
+        [HttpGet]
         public IActionResult Delete(int id)
         {
             var reservation = _context.Reservations
@@ -281,7 +220,7 @@ namespace MarketplaceMvc.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult Delete(int id, IFormCollection form)
         {
             var reservation = _context.Reservations.FirstOrDefault(r => r.ReservationId == id);
 

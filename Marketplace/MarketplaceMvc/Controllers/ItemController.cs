@@ -341,7 +341,7 @@ namespace MarketplaceMvc.Controllers
 
                 _context.SaveChanges();
 
-                return RedirectToAction("Index", "Property");
+                return RedirectToAction("Index", "Item");
             }
             catch
             {

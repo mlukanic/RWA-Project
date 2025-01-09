@@ -50,7 +50,7 @@
             <h2>@Model.Title</h2>
             <h4 class="text-muted">@Model.TypeName</h4>
             <div class="mt-3 mb-3">
-                <img alt="Property Image" class="img-fluid rounded">
+                <img alt="Item Image" class="img-fluid rounded">
             </div>
             <p class="mt-3"><strong>Description:</strong> @Model.Description</p>
         </div>
@@ -90,10 +90,10 @@
     <div class="row mt-4">
         <div class="col">
             <a asp-controller="Reservation" asp-action="Create"
-               asp-route-propertyId="@Model.ItemId" class="btn btn-primary">
+               asp-route-itemId="@Model.ItemId" class="btn btn-primary">
                 Reserve
             </a>
-            <a asp-controller="Property" asp-action="Search" class="btn btn-outline-primary">Back</a>
+            <a asp-controller="Item" asp-action="Index" class="btn btn-outline-primary">Back</a>
         </div>
     </div>
 </div>

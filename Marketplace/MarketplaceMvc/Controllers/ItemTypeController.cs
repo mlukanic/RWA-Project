@@ -90,6 +90,9 @@ namespace MarketplaceMvc.Controllers
                 _context.ItemTypes.Add(newItemType);
                 _context.SaveChanges();
 
+                // Clear the session cache for item types
+                HttpContext.Session.Remove("TypeListItems");
+
                 TempData["newItemType"] = JsonConvert.SerializeObject(newItemType); // Use JsonConvert.SerializeObject
 
                 return RedirectToAction(nameof(Index));

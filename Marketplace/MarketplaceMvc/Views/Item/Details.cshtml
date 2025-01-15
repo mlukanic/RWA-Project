@@ -5,8 +5,6 @@
 }
 
 <style>
-
-
     .tags-list {
         display: flex;
         flex-wrap: wrap;
@@ -18,15 +16,15 @@
         padding-right: 10px;
     }
 
-    .tag-item::after {
-       content: "|";
-       position: absolute;
-       right: 0;
-    }
+        .tag-item::after {
+            content: "|";
+            position: absolute;
+            right: 0;
+        }
 
-    .tag-item:last-child::after {
-       content: "";
-    }
+        .tag-item:last-child::after {
+            content: "";
+        }
 
     .container h2 {
         font-weight: bold;
@@ -39,7 +37,6 @@
     .btn-outline-primary {
         margin-right: 10px;
     }
-
 </style>
 
 <h1>Item details</h1>
@@ -66,7 +63,7 @@
                     <dd class="col-sm-7">
                         @if (Model.TagIds != null && Model.TagIds.Any())
                         {
-                            <div class="tag-list">
+                            <div class="tags-list">
                                 @foreach (var tagId in Model.TagIds)
                                 {
                                     var tag = Model.Tags.FirstOrDefault(x => x.TagId == tagId);

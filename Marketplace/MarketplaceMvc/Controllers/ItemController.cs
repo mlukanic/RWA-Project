@@ -47,6 +47,7 @@ namespace MarketplaceMvc.Controllers
             return typeListItems;
         }
 
+
         public IActionResult Index(int page = 1, int size = 10)
         {
             try
